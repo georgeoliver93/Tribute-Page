@@ -1,0 +1,79 @@
+/* import Google Font Raleway */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+/* Using Google Font and fall to */
+body {
+  background-color: rgba(0, 0, 0, 0.44);
+  font-family: Raleway, sans-serif;
+  line-height: 2.0;
+}
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+#title {
+  border-color: gold white gold white;
+  border-width: 5px;;
+  border-style: double;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 1.0;
+}
+/* Just image */
+#image {
+  background: rgba(255, 215, 0, 0.6);
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+/* includes figcaption */
+#img-div {
+  background-color: rgba(255, 215, 0, 0.6);
+  padding 10px;
+  margin: 0;
+}
+#img-caption {
+  margin: 15px 5px 15px 5px;
+  text-align: center;
+}
+@media (max-width: 460px) {
+  #img-caption {
+  }
+}
+/* Section = Timeline bulletpoints */
+#tribute-info {
+  text-align: left;
+}
+/* H3 Headline */
+#headline {
+  text-align: center;
+  margin: 50px 0;
+  text-decoration: underline;
+}
+#title-caption {
+  text-align: center;
+  text-decoration: underline;
+}
+ul {
+  max-width: 550px;
+  margin: auto;
+  text-align: left;
+  line-height: 1.8;
+}
+li {
+  margin: 20px 0;
+  text-align: left;
+}
+blockquote {
+  font-style: italic;
+  text-align: left;
+}
+h3 {
+  text-align: center;
+}
