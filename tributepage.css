@@ -35,7 +35,7 @@ body {
 /* includes figcaption */
 #img-div {
   background-color: rgba(255, 215, 0, 0.6);
-  padding 10px;
+  padding: 10px;
   margin: 0;
 }
 #img-caption {
@@ -44,6 +44,7 @@ body {
 }
 @media (max-width: 460px) {
   #img-caption {
+      
   }
 }
 /* Section = Timeline bulletpoints */
