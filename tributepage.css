@@ -43,9 +43,6 @@ body {
   text-align: center;
 }
 @media (max-width: 460px) {
-  #img-caption {
-      
-  }
 }
 /* Section = Timeline bulletpoints */
 #tribute-info {
